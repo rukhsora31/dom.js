@@ -1,0 +1,26 @@
+.box, .list{
+    border: 1px solid ;
+    text-align: center;
+    width: max-content;
+    padding: 30px;
+    margin: 0 auto;
+}
+.img{
+    width: 300px;
+}
+.none{
+    display: none;
+}
+.list{
+    p{
+        border: 1px solid ;
+        padding: 5px;
+        cursor: pointer;
+
+        transition: all .3;
+
+        &:hover{
+            background-color: lightpink;
+        }
+    }
+}
